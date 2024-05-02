@@ -1,23 +1,42 @@
 table {
-    width: 20%;
     border-collapse: collapse;
 }
- td {
+
+table p {
+    font-size: 70px;
+    margin: 0;
+}
+
+ 
+td, th{
+    width: 100px;
     border: 1px solid black;
-    padding: 8px;
+    padding: 10px;
     text-align: center;
 }
+
 
 .firstTable {
    float: left;
 }
 
+th[colspan="2"] {
+    /* margin: 10px; */
+    padding: 10px;
+    background-color: #941100;
+    color: white;
+    font-size: 20px;
+    border: 0px solid blue;
+    border-radius: 20px;
+}
 
 .second-table {
     overflow: hidden;
 }
 
-.third-table
+.firstTable #vowels-monophthongs
 {
-    /* color: red; */
+    width: 100%;
 }
+
+
