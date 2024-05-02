@@ -1,0 +1,23 @@
+table {
+    width: 20%;
+    border-collapse: collapse;
+}
+ td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.firstTable {
+   float: left;
+}
+
+
+.second-table {
+    overflow: hidden;
+}
+
+.third-table
+{
+    /* color: red; */
+}
