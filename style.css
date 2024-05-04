@@ -1,21 +1,53 @@
+
 table {
     border-collapse: collapse;
 }
 
-.heading {
-    width: 48%;
-    /* color: #941100; */
-    color: black;
-    font-size: 26px;
+header {
+    width: 305px;
+    margin: 30px 0px 25px 16px;
+    border-radius: 10%;
+    color: white;
+    background-color: #941100;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition-property: all;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.2s;
+}
+
+header:hover{
+    transition-property: all;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.2s;
+    color: white;
+    background-color: black;
+}
+
+.chart {
+    margin: 8px 0 0px 0px;
+    padding: 7px 0px;
+    font-size: 25px;
     text-align: center;
 }
 
+.brand {
+    margin: 6px 0;
+    padding-bottom: 6px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
 .section-1 {
     width: 70%;
+    margin-left: 20px;
 }
 table p {
-    font-size: 70px;
     margin: 0;
+    font-size: 70px;
+    cursor: pointer;
 }
 
 td, th{
@@ -24,6 +56,7 @@ td, th{
     padding: 10px;
     text-align: center;
 }
+
 
 .firstTable {
    float: left;
@@ -36,10 +69,33 @@ th[colspan="2"] {
     font-size: 20px;
     border: 0px solid blue;
     border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
+.voiceless {
+    color : #929292
+}
+td, th[colspan="2"] {
+    transition-property: all;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.2s;
+}
+
+td:hover {
+    transition-property: all;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.2s;
+    color: white;
+    background-color: #941100;
+}
+
+
 th[colspan="2"]:hover {
-    color: black;
+    color: white;
+    background-color: black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 
