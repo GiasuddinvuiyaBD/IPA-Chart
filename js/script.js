@@ -59,6 +59,22 @@ const əʊ = new Audio("audio/əʊ.wav")
 const ɪə = new Audio("audio/ɪə.wav")
 const ɔɪ = new Audio("audio/ɔɪ.wav")
 const ʊə = new Audio("audio/ʊə.wav")
+// long vowel sounds
+const iː = new Audio("audio/iː.wav")
+const uː = new Audio("audio/uː.wav")
+const ɜː = new Audio("audio/ɜː.wav")
+const ɔː = new Audio("audio/ɔː.wav")
+const ɑː = new Audio("audio/ɑː.wav")
+// short sound
+const ɪ = new Audio("audio/ɪ.wav")
+const ʊ = new Audio("audio/ʊ.wav")
+const e = new Audio("audio/e.mp3")
+const ə = new Audio("audio/ə.wav")
+const æ = new Audio("audio/æ.wav")
+const ʌ = new Audio("audio/ʌ.wav")
+const ɒ = new Audio("audio/ɒ.wav")
+
+
 
 
 diphSoundɪə.addEventListener('click',(evt) => 
@@ -114,4 +130,72 @@ diphSoundaʊ.addEventListener('click',(evt) =>
     evt.preventDefault(); 
     aʊ.play();
 })
+
+
+// sound vowel sounds
+monophLongSoundsiː.addEventListener('click',(evt) => 
+{
+    evt.preventDefault();
+    iː.play();
+})
+monophLongSoundsuː.addEventListener('click',(evt) => 
+{
+    evt.preventDefault();
+    uː.play();
+})
+monophLongSoundsɜː.addEventListener('click',(evt) => 
+{
+    evt.preventDefault();
+    ɜː.play();
+})
+monophLongSoundsɔː.addEventListener('click',(evt) => 
+{
+    evt.preventDefault();
+    ɔː.play();
+})
+monophLongSoundsɑː.addEventListener('click',(evt) => 
+{
+    evt.preventDefault();
+    ɑː.play();
+})
+// short sounds 
+monophShortSoundsɪ.addEventListener('click',(evt) => 
+{
+    evt.preventDefault();
+    ɪ.play()
+})
+
+monophShortSoundsʊ.addEventListener('click',(evt) => 
+{
+    evt.preventDefault();
+    ʊ.play()
+})
+monophShortSoundse.addEventListener('click',(evt) => 
+{
+    evt.preventDefault();
+    e.play()
+})
+monophShortSoundsə.addEventListener('click',(evt) => 
+{
+    evt.preventDefault();
+    ə.play()
+})
+
+monophShortSoundsæ.addEventListener('click',(evt) => 
+{
+    evt.preventDefault();
+    æ.play()
+})
+monophShortSoundsʌ.addEventListener('click',(evt) => 
+{
+    evt.preventDefault();
+    ʌ.play()
+})
+monophShortSoundsɒ.addEventListener('click',(evt) => 
+{
+    evt.preventDefault();
+    ɒ.play()
+})
+
+
 
