@@ -61,7 +61,6 @@ pElm.forEach((elm) =>
     {
         
         evt.preventDefault()
-        console.log( evt.target.classList[0])
         switch(true)
         {
             case evt.target.classList[0] === 'monoph-long-sounds-iː' : 
